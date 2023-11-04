@@ -5,12 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon"
+        href="https://web.whatsapp.com/img/favicon/1x/favicon.png"
+        type="image/x-icon">
     <title>WhatsApp UI</title>
     <link rel="stylesheet"
         href="./assets/css/output.css">
 </head>
 
-<body class="bg-green-300 p-10">
+<body class="bg-green-300">
     <section class="bg-white max-w-md mx-auto">
         <div class="bg-emerald-600 text-white px-3 py-5 flex item-centre justify-between">
             <h1 class="font-semibold">WhatsApp</h1>
@@ -35,7 +39,8 @@
 
         </div>
 
-        <ul class="bg-emerald-600 text-white pl-3 pr-3 py-2.5 flex justify-between items-center space-x-4">
+        <ul
+            class="bg-emerald-600 text-white pl-3 pr-3 py-2.5 flex justify-between items-center space-x-4 hover:cursor-pointer">
             <li>
                 <svg xmlns="http://www.w3.org/2000/svg"
                     width="32"
@@ -55,16 +60,16 @@
                 <div class="absolute right-55 top-40 w-20 h-1 bg-white"></div>
 
                 <div class="uppercase font-medium text-sm space-x-2 flex items-center">
-                    <span>Status</span>
+                    <a href="./status.html" class="text-gray-200">Status</a>
                 </div>
 
                 <div class="uppercase font-medium text-sm space-x-2 flex items-center">
-                    <span>Calls</span>
+                    <span class="text-gray-200">Calls</span>
                 </div>
             </li>
         </ul>
         <!-- chat screen -->
-        <div class="bg-white px-3 py-5 space-y-4 ">
+        <div class="bg-white px-3 py-5 space-y-4 relative">
             <div class="flex space-x-4 items-center ">
                 <div>
                     <img src="https://ui-avatars.com/api/?name=virat Kohli&background=random&color=fff"
@@ -112,6 +117,48 @@
                     <span
                         class="w-5 h-5 p-1.5 rounded-full bg-green-600 flex items-center text-white text-sm font-semibold">2</span>
                 </div>
+            </div>
+            <div class="flex space-x-4 items-center ">
+                <div>
+                    <img src="https://ui-avatars.com/api/?name=JK&background=random&color=fff"
+                        alt="JK"
+                        class="rounded-full" />
+                </div>
+                <div class="flex-1">
+                    <h4 class="font-semibold">JK</h4>
+                    <p>Hello!</p>
+                </div>
+                <div class="flex flex-col items-center space-y-1">
+                    <span class="text-green-600 text-sm font-semibold">09:18 AM</span>
+                    <span
+                        class="w-5 h-5 p-1.5 rounded-full bg-green-600 flex items-center text-white text-sm font-semibold">2</span>
+                </div>
+            </div>
+            <div class="flex space-x-4 items-center ">
+                <div>
+                    <img src="https://ui-avatars.com/api/?name=Mohan&background=random&color=fff"
+                        alt="Mohan"
+                        class="rounded-full" />
+                </div>
+                <div class="flex-1">
+                    <h4 class="font-semibold">Mohan</h4>
+                    <p>Hello!</p>
+                </div>
+                <div class="flex flex-col items-center space-y-1">
+                    <span class="text-green-600 text-sm font-semibold">08:18 AM</span>
+                    <span
+                        class="w-5 h-5 p-1.5 rounded-full bg-green-600 flex items-center text-white text-sm font-semibold">2</span>
+                </div>
+            </div>
+            <div class="bg-emerald-600 w-12 h-12 rounded-full flex items-center justify-center absolute right-5 bottom-5 hover:cursor-pointer ">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    class="text-white">
+                    <path fill="currentColor"
+                        d="M4 4h16v12H5.17L4 17.17V4m0-2c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2H4zm2 10h12v2H6v-2zm0-3h12v2H6V9zm0-3h12v2H6V6z" />
+                </svg>
             </div>
         </div>
 
